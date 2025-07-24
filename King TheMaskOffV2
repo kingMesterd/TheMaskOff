@@ -60,7 +60,7 @@ getgenv().HitboxStatus = false
 getgenv().TeamCheck = false
 getgenv().FriendCheck = false
 
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/kingMesterd/Dark_Shadow/refs/heads/main/KavoUi"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("KingMesterdV2 Hub", "Ocean")
 
 local Tab1 = Window:NewTab("Player")
