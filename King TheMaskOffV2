@@ -374,3 +374,5 @@ local Credits = Window:NewTab("Credits")
 
 
 CreditsSection:NewLabel("Created by Dark_Shadow")
+
+frame.Draggable = true
