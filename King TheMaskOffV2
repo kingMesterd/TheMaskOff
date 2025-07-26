@@ -345,6 +345,14 @@ Tab2Section:NewButton("Tp to player Gui", "Teleport to player Gui", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/kingMesterd/Dark_Shadow/main/Tp%20made%20by%20arky%20script"))()
 end)
 
+Tab2Section:NewButton("Fling Touch", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kingMesterd/Dark_Shadow/refs/heads/main/Fling"))()
+end)
+
+Tab2Section:NewButton("FeEmote", "Free Emote", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kingMesterd/Dark_Shadow/refs/heads/main/FeEmote"))()
+end)
+
 Tab2Section:NewButton("Infinite Yield", "Infinite Yield", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 end)
