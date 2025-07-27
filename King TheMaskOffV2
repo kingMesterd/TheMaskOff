@@ -345,6 +345,10 @@ Tab2Section:NewButton("Tp to player Gui", "Teleport to player Gui", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/kingMesterd/Dark_Shadow/main/Tp%20made%20by%20arky%20script"))()
 end)
 
+Tab2Section:NewButton("Fling Name", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kingMesterd/Dark_Shadow/refs/heads/main/Fling%20name"))()
+end)
+
 Tab2Section:NewButton("Fling Touch", "ButtonInfo", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/kingMesterd/Dark_Shadow/refs/heads/main/Fling"))()
 end)
